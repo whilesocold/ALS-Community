@@ -9,6 +9,7 @@
 #include "Components/ALSDebugComponent.h"
 
 #include "Components/CapsuleComponent.h"
+#include "Engine/World.h"
 
 FTransform UALSMathLibrary::MantleComponentLocalToWorld(const FALSComponentAndTransform& CompAndTransform)
 {

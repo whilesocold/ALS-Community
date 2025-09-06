@@ -9,6 +9,7 @@
 #include "Character/Animation/ALSPlayerCameraBehavior.h"
 #include "Library/ALSMathLibrary.h"
 #include "Components/ALSDebugComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 
 #include "Components/CapsuleComponent.h"
 #include "Curves/CurveFloat.h"
@@ -18,7 +19,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "TimerManager.h"
 #include "Net/UnrealNetwork.h"
-
+#include "Engine/World.h"
 
 const FName NAME_FP_Camera(TEXT("FP_Camera"));
 const FName NAME_Pelvis(TEXT("Pelvis"));

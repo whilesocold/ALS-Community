@@ -9,6 +9,8 @@
 #include "Character/Animation/ALSPlayerCameraBehavior.h"
 #include "Kismet/GameplayStatics.h"
 #include "DrawDebugHelpers.h"
+#include "Engine/World.h"
+#include "Components/SkeletalMeshComponent.h"
 
 bool UALSDebugComponent::bDebugView = false;
 bool UALSDebugComponent::bShowTraces = false;

@@ -6,6 +6,7 @@
 
 #include "Character/ALSBaseCharacter.h"
 #include "Character/Animation/ALSCharacterAnimInstance.h"
+#include "Components/SkeletalMeshComponent.h"
 
 void UALSNotifyStateOverlayOverride::NotifyBegin(USkeletalMeshComponent* MeshComp, UAnimSequenceBase* Animation,
                                                  float TotalDuration, const FAnimNotifyEventReference& EventReference)

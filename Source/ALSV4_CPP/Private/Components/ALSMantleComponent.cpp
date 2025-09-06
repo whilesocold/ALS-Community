@@ -8,11 +8,13 @@
 #include "Character/ALSCharacter.h"
 #include "Character/Animation/ALSCharacterAnimInstance.h"
 #include "Components/ALSDebugComponent.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "Components/PrimitiveComponent.h"
 #include "Curves/CurveVector.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Library/ALSMathLibrary.h"
-
+#include "Engine/World.h"
 
 const FName NAME_MantleEnd(TEXT("MantleEnd"));
 const FName NAME_MantleUpdate(TEXT("MantleUpdate"));

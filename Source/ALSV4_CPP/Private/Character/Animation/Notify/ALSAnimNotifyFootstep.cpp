@@ -9,6 +9,7 @@
 #include "Components/SkeletalMeshComponent.h"
 
 #include "Engine/DataTable.h"
+#include "Engine/World.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Library/ALSCharacterStructLibrary.h"
 #include "PhysicalMaterials/PhysicalMaterial.h"

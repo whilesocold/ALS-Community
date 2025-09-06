@@ -6,6 +6,7 @@
 
 #include "Character/ALSBaseCharacter.h"
 #include "Character/Animation/ALSCharacterAnimInstance.h"
+#include "Components/SkeletalMeshComponent.h"
 
 void UALSAnimNotifyGroundedEntryState::Notify(USkeletalMeshComponent* MeshComp, UAnimSequenceBase* Animation, const FAnimNotifyEventReference& EventReference)
 {
